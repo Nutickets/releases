@@ -1,3 +1,8 @@
+<style>
+  header, footer { display: none; }
+  section { width: 100% }
+</style>
+
 ![logo](https://user-images.githubusercontent.com/57409655/115874120-a567c880-a43b-11eb-95ea-9297cfea6658.png)
 
 
