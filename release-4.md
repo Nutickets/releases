@@ -51,7 +51,7 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
 - Added new scheduled events header options for further customisation of your schedule/season pages
 - Made ‘change currency’ option visible to non-logged in users
 - Added new social media and app store links and create compressed pngs for each new icon
-- Added <mark>sold out/off sale styling</mark> for all timeslots, tickets and event blocks
+- Added sold out/off sale styling for all timeslots, tickets and event blocks
 
 
 ## 🤝 Integrations
