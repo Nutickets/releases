@@ -26,7 +26,7 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
   - Added animation for seating plans that load in small size (because it's loaded on a phone or because they are big) + "Click to zoom in"
   - Added tooltip in seating editor to check seat properties like gates stairs etc
 - Add the ability to create links in our WYSIWYG editor (i.e. in data capture questions, event pages, emails, etc.)
-- <mark>Added a ‘regional settings’</mark> menu which displays automatically on a customers first visit to a multi-lingual shop
+- <mark>Added a ‘regional settings’ menu</mark> which displays automatically on a customers first visit to a multi-lingual shop
 - Added the ability to manage tags (i.e. event tags) from a central interface including the ability to 'merge' tags
 - <mark>Various branding and theming updates:</mark>
   - Introduced a new design for picking colour themes in Admin and Hub
