@@ -6,7 +6,7 @@
 Below you will find the summary notes for the 4th release of the Nuweb core platform.
 
 ## 🚀 New Features
-- Added **full multi-lingual support** across the entire platform for user content. Organisers can now provide translations for events, data capture, images and much more for any language supported within their account.
+- Added <mark>full multi-lingual support</mark> across the entire platform for user content. Organisers can now provide translations for events, data capture, images and much more for any language supported within their account.
 - Added a new section in _Admin > Website > Text_ that allows organisers to **customise customer emails** at both the account-level and event-level
 - Reserved Seating:
   - **Added stands, gates and block** allocation
