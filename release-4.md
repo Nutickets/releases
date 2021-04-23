@@ -3,7 +3,7 @@
 
 
 # Release 4: March 26th - April 20th 2021
-Below you will find the summary notes for the 4th release of the Nuweb core platform.
+Below you will find the summary notes for the 4th release of the Nuweb core platform. The focus points are highlighted in yellow.
 
 ## 🚀 New Features
 - Added <mark>full multi-lingual support</mark> across the entire platform for user content. Organisers can now provide translations for events, data capture, images and much more for any language supported within their account.
