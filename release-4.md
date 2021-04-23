@@ -7,16 +7,16 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
 
 ## 🚀 New Features
 - Added <mark>full multi-lingual support</mark> across the entire platform for user content. Organisers can now provide translations for events, data capture, images and much more for any language supported within their account.
-- Added a new section in _Admin > Website > Text_ that allows organisers to **customise customer emails** at both the account-level and event-level
+- Added a new section in _Admin > Website > Text_ that allows organisers to <mark>customise customer emails</mark> at both the account-level and event-level
 - Reserved Seating:
-  - **Added stands, gates and block** allocation
+  - <mark>Added stands, gates and block</mark> allocation
   - Added top menu - including keyboard shortcut guides
   - Object editing menu could be either on the top or the side
   - Added full screen mode + ability to hide right column so the plan can truly be full screen
   - Added the ability to draw Gates/Stands/Stairs:
     - Ability to change how these definitions are called (i.e rename 'gate' to 'entrance')
     - New interface to assign these attributes, so you can double-check if you've done your setup correctly
-  - ♿︎ **Seat accessibility:** display accessibility icon over seat, you can choose to highlight it with a blue background colour too. Accessibility icon was added into the icon library too.
+  - ♿︎ <mark>Seat accessibility:</mark> display accessibility icon over seat, you can choose to highlight it with a blue background colour too. Accessibility icon was added into the icon library too.
   - Comment: Add any comments to a seat (it could be about visibility, accessibility etc), it will appear in the shop in purchase, and as as a tooltip
   - Under label options you can change how newly added Blocks, Tables, General Admissions are called
   - Seat properties: in the right column when you've got any objects selected with seats, you can edit the selected seats' properties like: accessibility, price bands, gates etc
@@ -27,9 +27,9 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
   - Added animation for seating plans that load in small size (because it's loaded on a phone or because they are big) + "Click to zoom in"
   - Added tooltip in seating editor to check seat properties like gates stairs etc
 - Add the ability to create links in our WYSIWYG editor (i.e. in data capture questions, event pages, emails, etc.)
-- **Added a ‘regional settings’** menu which displays automatically on a customers first visit to a multi-lingual shop
+- <mark>Added a ‘regional settings’</mark> menu which displays automatically on a customers first visit to a multi-lingual shop
 - Added the ability to manage tags (i.e. event tags) from a central interface including the ability to 'merge' tags
-- **Various branding and theming updates:**
+- <mark>Various branding and theming updates:</mark>
   - Introduced a new design for picking colour themes in Admin and Hub
   - Ability to style both primary and secondary buttons as either filled or line
   - Ability to change both button colour and button text colour to a wide array of branding values
@@ -51,21 +51,21 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
 - Added new scheduled events header options for further customisation of your schedule/season pages
 - Made ‘change currency’ option visible to non-logged in users
 - Added new social media and app store links and create compressed pngs for each new icon
-- Added **sold out/off sale styling** for all timeslots, tickets and event blocks
+- Added <mark>sold out/off sale styling</mark> for all timeslots, tickets and event blocks
 
 
 ## 🤝 Integrations
-- Added a **PayTabs payment gateway integration**
-- Integrate with the **General Entertainment Authority** (GEA) for Saudi Arabia
+- Added a <mark>PayTabs payment gateway integration</mark>
+- Integrate with the <mark>General Entertainment Authority</mark> (GEA) for Saudi Arabia
 - SumUp: added the ability to toggle the ‘zip code’ field in the payment form
 - Quickpay/SumUp: added the ability to link with a test account for testing the integration before going live
-- Added a new **customer importer** to allow migration of customers from external systems
+- Added a new <mark>customer importer</mark> to allow migration of customers from external systems
 - Added an `appView` flag added to the shop, which when enabled hides the main menu. This is useful when embedding the shop into an iOS / Android app
 
 
 ## 🧹 Housekeeping
 - Fixed stripe double charge bug in rare cases
-- Fixed **sales & attendance reporting inconsistencies**
+- Fixed <mark>sales & attendance reporting inconsistencies</mark>
 - Fixed ordering of addons in ticket shop to match the ordering setup in admin
 - Fixed issue where child company menu and listings were displaying in parent company sites
 - Allow the ‘purchase limit’ settings to be bulk edited
