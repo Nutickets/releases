@@ -1,10 +1,4 @@
-<style>
-  header, footer { display: none; }
-  section { width: 100% }
-</style>
-
 ![logo](https://user-images.githubusercontent.com/57409655/115874120-a567c880-a43b-11eb-95ea-9297cfea6658.png)
-
 
 
 # Release 4: March 26th - April 20th 2021
@@ -96,3 +90,18 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
 - API: added order items to the transactions endpoint
 - API: added data capture answers to the retrieve customers endpoint
 - Fully automated the deployment process with the option to display a maintenance mode page during critical database migrations to preserve data integrity
+
+
+
+
+
+
+
+
+
+
+
+<style>
+  header, footer { display: none; }
+  section { width: 100% }
+</style>
