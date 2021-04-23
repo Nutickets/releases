@@ -85,9 +85,9 @@ Below you will find the summary notes for the 4th release of the Nuweb core plat
 
 
 ## 💻 Technical
-- Introduced further automation for deployments
 - We now ensure that the exact details of items at the point of sale, are recorded (for future reporting if needed, following rebooking)
 - Introduced the concept of 'protected' data capture questions which cannot be deleted under any cirumstance. This can be applied to system-critical data capture
 - API: added event codes to the retrieve events endpoint
 - API: added order items to the transactions endpoint
 - API: added data capture answers to the retrieve customers endpoint
+- Fully automated the deployment process with the option to display a maintenance mode page during critical database migrations to preserve data integrity
