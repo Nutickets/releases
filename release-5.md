@@ -30,7 +30,7 @@ Below you will find the summary notes for the 5th release of the Nuweb core plat
 - Discount codes: add the option to limit %-based codes to only one application per order
 - Add the ability to display a 'tickets remaining' badge against each sale item
 - Add support for multiple custom domains per shop
-- Various UI/UX improvements:
+- <mark>Various UI/UX improvements:</mark>
   - Improved usability of date/time pickers
   - Restructured theme/branding customisations in Admin
   - More customisation options for menus: alignment, dividing lines, social media colour choices and logo options
@@ -44,14 +44,12 @@ Below you will find the summary notes for the 5th release of the Nuweb core plat
 - Added the option to always display item descriptions
 - Added the option to show/hide venue location and show/hide venue name
 - Added the ability to show/hide the discount input field in both the shop and box office
-- Email improvements - layout improvements, timeslots purchases now show timeslot date/time rather than event date/time.
-- Timeslot display improvements - Hid ‘Calendar view’ in items modal when timeslots span only 1 day, added ‘event pass’ tickets to ‘Calendar view’.
-- Improved currency support - Currency formatting has been improved to show large number separators, the correct number of decimal places and language-specific symbols (eg £ shows as GBP in Arabic language).
-- Added a warning to show when a map block has been added to an event page and the related venue does not have valid longitude/latitude coordinates.
-- Google tag manager has been moved to marketing settings, alongside cookie banner.
-- Added a ‘select all’ toggle when bulk-editing scheduled sale items.
-- Added a toggle to control if an event is hidden/shown in event listings whenever taken off sale, or put on sale. 
-- Improved event page and event blocks to more clearly show where an event is ‘Off Sale’.
+- Email improvements - layout improvements, timeslots purchases now show timeslot date/time rather than event date/time
+- Timeslot display improvements - Hid ‘Calendar view’ in items modal when timeslots span only 1 day, added ‘event pass’ tickets to ‘Calendar view’
+- Improved currency support - Currency formatting has been improved to show large number separators, the correct number of decimal places and language-specific symbols (eg £ shows as GBP in Arabic language)
+- Added a ‘select all’ toggle when bulk-editing scheduled sale items
+- Added a toggle to control if an event is hidden/shown in event listings whenever taken off sale, or put on sale
+- Improved event page and event blocks to more clearly show where an event is ‘Off Sale’
 
 
 ## 🤝 Integrations
