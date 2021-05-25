@@ -5,22 +5,22 @@
 Below you will find the summary notes for the 5th release of the Nuweb core platform. The focus points are highlighted in yellow.
 
 ## 🚀 New Features
-- Added stadium reserved seating with areas functionality as well as:
+- Added <mark>stadium reserved seating with areas functionality</mark> as well as:
     - Added the ability to choose between large and small seating plans
     - Added relative sizing based on current zoom level
     - Improved seating plan speed
     - Added autosaving in the background and reloading of unsaved plans
     - General admission font sizes can be customised
     - Added resizing support for polygon general admission and shapes
-- Implemented visibility groups (VGs) which allow admins to limit user access to events (and surrounding resources) within their VGs
+- Implemented <mark>visibility groups</mark> (VGs) which allow admins to limit user access to events (and surrounding resources) within their VGs
     - VGs can be managed and assigned by users with the appropriate permissions
     - Events, venues, listings, orders, attendance and reports are automatically filtered according to users VGs
     - Additional VG filtering can be managed via the filters in Admin
     - User VGs can be managed through our API
-- Added system auditing throughout admin, hub, the box office and the API ft. automated backups
+- Added <mark>system auditing</mark> throughout admin, hub, the box office and the API ft. automated backups
 - BETA: A configurable virtual waiting room for creating a fair and reliable shopping experience during popular event launches
 - Added a billing address book which is compatible with all on-site payment processors
-- Added a first-party cookie banner with a customisable cookie policy
+- Added a <mark>first-party cookie banner with a customisable cookie policy</mark>
 - Added event-level booking notification emails
 - Added a new 'forced checkout' setting which prevents customers from navigating away from the checkout process without losing their reservation
 
@@ -55,12 +55,12 @@ Below you will find the summary notes for the 5th release of the Nuweb core plat
 
 
 ## 🤝 Integrations
-- Integration with PayPal Commerce Platform featuring:
+- <mark>Integration with PayPal Commerce Platform</mark> featuring:
   - Organiser onboarding process
   - Customisable payment page with the choice between using PayPal guest checkouts or a custom card form
   - Support for alternate payment methods (SOFORT, iDEAL, giropay and more)
 - Added new computed fields to the customer report: registration source, purchase types, ticket types, ticket purchase count
-- BETA: A new email campaign tool has been released which introduces early access to the following features:
+- BETA: <mark>A new email campaign tool</mark> has been released which introduces early access to the following features:
     - Ability to send out mass marketing emails & campaigns
     - Ability to manage multiple lists
     - Ability to use custom data capture questions to onboard subscribers
