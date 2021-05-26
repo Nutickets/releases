@@ -93,7 +93,7 @@ Below you will find the summary notes for the 5th release of the Nuweb core plat
 - Fixed issue with data capture where you couldn’t disable questions set to ask on “Every ticket on every event”
 
 ## 💻 Technical
-- Various API additions and updates:
+- <mark>Various API additions and updates:</mark>
   - Suspend and restore users
   - Made password field optional when creating company users to support third-party authentication systems
   - Added filtering of purchased items by event(s)
