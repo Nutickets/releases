@@ -39,25 +39,27 @@ Below you will find the summary notes for the 5th release of the Nuweb core plat
   - Toggles are now keyboard accessible.
   - Error pages have been improved to both look better and offer more detailed information.
   - Event data capture now features a user-friendly progress bar when dealing with multiple events within a single order
+  - Misc layout fixes and improvements in customer emails
+  - Hid ‘Calendar view’ in items modal when timeslots span only 1 day, 
 - Added a new setting for controlling sale item images: either on/off or use event thumbnail
 - Added option descriptions to event codes (internal questions)
 - Added the option to always display item descriptions
 - Added the option to show/hide venue location and show/hide venue name
 - Added the ability to show/hide the discount input field in both the shop and box office
-- Email improvements - layout improvements, timeslots purchases now show timeslot date/time rather than event date/time
-- Timeslot display improvements - Hid ‘Calendar view’ in items modal when timeslots span only 1 day, added ‘event pass’ tickets to ‘Calendar view’
-- Improved currency support - Currency formatting has been improved to show large number separators, the correct number of decimal places and language-specific symbols (eg £ shows as GBP in Arabic language)
+- Added ‘event pass’ tickets to ‘Calendar view’
+- Timeslots purchases now show timeslot date/time rather than event date/time
+- Improved currency support: Currency formatting has been improved to show large number separators, the correct number of decimal places and language-specific symbols (eg £ shows as GBP in Arabic language)
 - Added a ‘select all’ toggle when bulk-editing scheduled sale items
 - Added a toggle to control if an event is hidden/shown in event listings whenever taken off sale, or put on sale
-- Improved event page and event blocks to more clearly show where an event is ‘Off Sale’
+- Improved event page and event blocks to more clearly show where an event is off-sale
 
 
 ## 🤝 Integrations
 - <mark>Integration with PayPal Commerce Platform</mark> featuring:
   - Organiser onboarding process
-  - Customisable payment page with the choice between using PayPal guest checkouts or a custom card form
+  - Customisable payment page with the choice between using PayPal guest checkouts or a custom branded card form for faster checkouts
   - Support for alternate payment methods (SOFORT, iDEAL, giropay and more)
-- Added new computed fields to the customer report: registration source, purchase types, ticket types, ticket purchase count
+- Added new computed fields to the customer report: registration source, purchase types, ticket types, ticket purchase count & more
 - BETA: <mark>A new email campaign tool</mark> has been released which introduces early access to the following features:
     - Ability to send out mass marketing emails & campaigns
     - Ability to manage multiple lists
