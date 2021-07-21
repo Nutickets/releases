@@ -1,7 +1,7 @@
 [![logo](https://user-images.githubusercontent.com/57409655/115874120-a567c880-a43b-11eb-95ea-9297cfea6658.png)](/releases)
 
 
-# Release 6: May 31st - July 15th
+# Release 6: May 24th - July 15th
 Below you will find the summary notes for the 6th release of the Nuweb core platform.
 
 ## 🚀 New Features
