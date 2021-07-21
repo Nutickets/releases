@@ -7,17 +7,9 @@ Below you will find the summary notes for the 6th release of the Nuweb core plat
 ## 🚀 New Features
 - Added a new 'Payment Link' payment option when selling tickets via box office mode. This emails a unique secure URL to the customers email address allowing them to pay for their tickets within an allotted time.
 - Added the ability to create access codes which allow organisers to hold seats or individual tickets from the public and lock them behind an access code:
-    - Allow the creation of 'access codes', with associated sale items.
-    - Access codes could be added to a customer's session via URL, Session token, or a form
-        - The link to the form on the shop is only showed when the access code settings for 'display modal form entry' is enabled. This is disabled by default.
-    - Sale items restricted by the access code can only be purchased when using the access link, or entering the code. The items do not appear unless the code is entered.
-    - Setting added to disable the sale of unrestricted items when an access code is entered - they are removed entirely from the sale item lists.
-    - Access Codes can have validity dates - they can only be used between those dates + times. Outside of those times, the restricted items do not appear.
-        - There is a toggle that allows for restricted sale items to go back to mass market sale, after the validity window closes.
-    - Access Codes can have their own permissions applied for users.
-        - When combined with visibility groups, access codes items are updated appropriately based on a user's visibility group settings.
-    - Maximum uses (total and per customer) can be specified.
-    - Min/max price ranges display on event cards has been updated to take into account the requirement for access codes.
+    - Access codes can be applied either by visiting a unique URL or by entering the code manually. Manual code entry can be enabled/disabled globally.
+    - Sale items restricted by the access code can only be purchased when using the access link, or entering the code. The items do not appear unless the code is entered and there is also the option to hide items outside of the applied access code.
+    - Access codes also feature many of the settings available with discount codes such as max usages overall and per customer, validity dates and more.
     - Access codes have been added to sales reports, to allow the specific codes that were used, to be revealed.
 - Added a quick-print option to the web-based box office mode upon completion of a sale
 - Phase one of the season ticket roadmap has been launched with the option to setup pre-season season tickets. This is in request-only BETA mode until phase two is launched in the upcoming release.
