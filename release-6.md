@@ -5,6 +5,33 @@
 Below you will find the summary notes for the 6th release of the Nuweb core platform.
 
 ## 🚀 New Features
+
+### The Charity Package
+- Introduced charities and donations into the checkout process. Organisers can setup one or many charities within their events and configure them to accept fixed-increment or user-specified donation amounts as well as several other donation-specific settings such as min/max price, charity website URL, charity logo etc.
+- Implemented GiftAid collection and reporting which can be optionally enabled per charity and the giftaid rate can be configured at the account-level.
+- Added a new "Donations Received" report alongside lots of new fields within existing reports for the new charity features
+- Added fundraising support via a JustGiving integration:
+  - Customers who have purchased tickets to an event can create & manage a fundraising page in JustGiving via the My Account section
+  - The default settings for the generated JustGiving pages can be configured per-event
+
+### Localisation, Dates and Times
+- Added the ability to customise date formats within your shop and admin panel. Dates can be configured as either "Big endian", "Middle endian" or "Little endian".
+- Added the ability to customiser time formats to either 12-hour or 24-hour time display.
+- Added multi-timezone support; admin users can configure a company default timezone as well as a timezone per event and choose between whether or not to display timezone information throughout the shop.
+- Cities and regions are now multi-lingual and translations can be populated when managing venues.
+- Languages and countries will now display in the correct language according to the users preference.
+
+### Stadiums & Seating Plans
+- Improved seating UI in shop / editor
+- Seating tags: you can tag seats and set tags to either appear on the ticket OR on the tooltip OR use them as filters.
+- New smaller features: Opacity for shapes and icons. Accessibility, gates, stand, stairs and tags for GA. Row labels will stick to row ends even when seats are hidden. Plan background colour could be changed. UI to rotate / resize elements in editor
+- Filters on the seating plan to search for price bands and tags, and in the editor any stand/stair/gate. It works with areas too.
+- Areas with no available tickets will be marked as unavailable
+- Realtime availability: Seating plan refreshes availability in realtime, and will tell you if someone snatched your selected seats right before your eyes.
+- Better UX after you add a seating plan to an event, with more guidance to finish setup
+- You can get a well detailed all out information of everything on the plan in the new Plan information dialog
+
+### Other Features
 - Added a new 'Payment Link' payment option when selling tickets via box office mode. This emails a unique secure URL to the customers email address allowing them to pay for their tickets within an allotted time.
 - Added the ability to create access codes which allow organisers to hold seats or individual tickets from the public and lock them behind an access code:
     - Access codes can be applied either by visiting a unique URL or by entering the code manually. Manual code entry can be enabled/disabled globally.
@@ -16,31 +43,6 @@ Below you will find the summary notes for the 6th release of the Nuweb core plat
 - Added fractional tax band support
 - Added support for same-day rebookings whereby customers can pick a different timeslot on the same day as their original booking
 - Added the ability to issue online refunds for card-present stripe transactions made via our box office mobile app
-
-### The Charity Package
-- Introduced charities and donations into the checkout process. Organisers can setup one or many charities within their events and configure them to accept fixed-increment or user-specified donation amounts as well as several other donation-specific settings such as min/max price, charity website URL, charity logo etc.
-- Implemented GiftAid collection and reporting which can be optionally enabled per charity and the giftaid rate can be configured at the account-level.
-- Added a new "Donations Received" report alongside lots of new fields within existing reports for the new charity features
-- Added fundraising support via a JustGiving integration:
-  - Customers who have purchased tickets to an event can create & manage a fundraising page in JustGiving via the My Account section
-  - The default settings for the generated JustGiving pages can be configured per-event
-
-### Localisation, dates and times
-- Added the ability to customise date formats within your shop and admin panel. Dates can be configured as either "Big endian", "Middle endian" or "Little endian".
-- Added the ability to customiser time formats to either 12-hour or 24-hour time display.
-- Added multi-timezone support; admin users can configure a company default timezone as well as a timezone per event and choose between whether or not to display timezone information throughout the shop.
-- Cities and regions are now multi-lingual and translations can be populated when managing venues.
-- Languages and countries will now display in the correct language according to the users preference.
-
-### Stadiums and large seating plans
-- Improved seating UI in shop / editor
-- Seating tags: you can tag seats and set tags to either appear on the ticket OR on the tooltip OR use them as filters.
-- New smaller features: Opacity for shapes and icons. Accessibility, gates, stand, stairs and tags for GA. Row labels will stick to row ends even when seats are hidden. Plan background colour could be changed. UI to rotate / resize elements in editor
-- Filters on the seating plan to search for price bands and tags, and in the editor any stand/stair/gate. It works with areas too.
-- Areas with no available tickets will be marked as unavailable
-- Realtime availability: Seating plan refreshes availability in realtime, and will tell you if someone snatched your selected seats right before your eyes.
-- Better UX after you add a seating plan to an event, with more guidance to finish setup
-- You can get a well detailed all out information of everything on the plan in the new Plan information dialog
 
 ## ✨ Enhancements
 - Added "External ID" on sale items/items, to allow for tracking of external identifiers (such as SKUs, or reporting IDs)
