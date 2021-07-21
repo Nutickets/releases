@@ -5,7 +5,7 @@
 Below you will find the summary notes for the 6th release of the Nuweb core platform.
 
 ## 🚀 New Features
-This release was particularly feature-rich, so we've had to group the features below to make these notes a little more consumable!
+This release was particularly feature-rich that we've had to group the features below to make these notes a little more consumable!
 
 #### The Charity Package
 - This release introduces functionality for the charity sector, kicking off with charities and donations. Organisers can setup one or many charities within their events and configure them to accept fixed-increment or user-specified donation amounts as well as several other donation-specific settings such as min/max price, charity website URL, charity logo etc.
@@ -45,6 +45,7 @@ This release was particularly feature-rich, so we've had to group the features b
 - Added support for same-day rebookings whereby customers can pick a different timeslot on the same day as their original booking
 - Added the ability to issue online refunds for card-present stripe transactions made via our box office mobile app
 
+
 ## ✨ Enhancements
 - Added "External ID" on sale items/items, to allow for tracking of external identifiers (such as SKUs, or reporting IDs)
 - Added Mandatory Title/Name/Address collection when enabling charity donations or fundraising
@@ -70,16 +71,19 @@ This release was particularly feature-rich, so we've had to group the features b
 - Made customer account pages more responsive to smaller mobile devices.
 - Added icons alongside the Profile menu options in Shop, to improve accessibility and offer visual queues to non-native language speakers.  
 
+
 ## 🤝 Integrations
 - Apple Pass: Now you can scan a QR code from your computer with your iPhone to add Apple Pass to your phone, or add it to your Apple Wallet through Safari
 - Integrated with Apple Sign-In, enabling customers to login with their Apple ID.
 - Added a “Hosted Payment Page” option to the PayTabs integration which supports APMs such as Google and Apple Pay
+
 
 ## 📱 Mobile Apps
 - An iOS Access Control hybrid app has been released, which supports both the legacy Nutickets platform and the current system.
 - Added support for fully offline entry controls in the Android Access Control app
 - Added NFC pairing functionality to the Android Access Control app, compatible with the new system.
 - Added the ability to scan in and out of zones with a paired NFC device. When combined with the new improved rapid scanning functionality, customers can very quickly and easily be admitted into zones based on their purchase history.
+
 
 ## 🧹 Housekeeping
 - Fix: Copying events was not properly copying the price band IDs for a seating plan.
@@ -104,6 +108,7 @@ This release was particularly feature-rich, so we've had to group the features b
 - Reactivated Facebook login globally
 - Fixed an issue whereby hub users couldn’t assign roles that they had, to other users.
 - Fix: Inclusive discount code dates were setting the time element to midnight, meaning discount codes were expiring 23 hours and 59 minutes early
+
 
 ## 💻 Technical
 - Refactored the seating plan import experience:
