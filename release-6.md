@@ -5,6 +5,7 @@
 Below you will find the summary notes for the 6th release of the Nuweb core platform.
 
 ## 🚀 New Features
+This release was particularly feature-rich, so we've had to group the features below to make these notes a little more consumable!
 
 ### The Charity Package
 - This release introduces functionality for the charity sector, kicking off with charities and donations. Organisers can setup one or many charities within their events and configure them to accept fixed-increment or user-specified donation amounts as well as several other donation-specific settings such as min/max price, charity website URL, charity logo etc.
