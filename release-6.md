@@ -120,7 +120,7 @@ This release was particularly feature-rich, so we've had to group the features b
 - Fixed a timezone conversion bug post-release, all effected timeslots have now been corrected
 - Fixed performance issues within accounts with large numbers of tickets and events where bulk editing became temporarily unusable.
 
-### API Updates
+#### API Updates
 - Added full set of API endpoints to accomodate offline entry scanning
 - Added NFC pairing API endpoints allowing tickets to be paired with NFC tags
 - Added a 'lastUpdated' filter to several endpoints (GET /customers, GET /orders/items, GET/events) to allow filtering of data based on the modified time
