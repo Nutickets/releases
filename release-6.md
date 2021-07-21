@@ -52,8 +52,8 @@ This release was particularly feature-rich that we've had to group the features 
 - Improvements to the rapid scanning feature within access control enabling customers to scan in with _any_ barcode providing that they own at least one eligible item within their account. Previously this described rapid scanning behaviour only worked for addon items.
 - Added the ability to manually expire active reservations within Admin which can also be used to cancel outstanding payment links
 - Improvements to the virtual waiting room: allow box office staff to bypass the queue, add the ability for customers to give up their spot for another shopper, improved the waiting room timer so the customers max session time only begins counting once they reach the front of the queue.
-- Display any ‘asked during registration’ questions to customers that are created outside of the normal registration flow (i.e. they were sent a ticket directly via their email address or were imported into the system by an admin).
-- Display ‘applied discount codes’ when viewing orders in Admin
+- ‘Asked during registration’ questions are now displayed to customers that were created outside of the normal registration flow (i.e. they were sent a ticket directly via their email address or were imported into the system by an admin).
+- Applie discount codes are displayed when viewing orders in Admin
 - Added an option for shop location to be displayed in the shop menu.
 - SEO: Added new input for meta images, descriptions and titles for events, shops and listing pages.
 - Added a new option to display logo in top menu rather than main menu.
