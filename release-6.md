@@ -7,7 +7,7 @@ Below you will find the summary notes for the 6th release of the Nuweb core plat
 ## 🚀 New Features
 This release was particularly feature-rich, so we've had to group the features below to make these notes a little more consumable!
 
-### The Charity Package
+#### The Charity Package
 - This release introduces functionality for the charity sector, kicking off with charities and donations. Organisers can setup one or many charities within their events and configure them to accept fixed-increment or user-specified donation amounts as well as several other donation-specific settings such as min/max price, charity website URL, charity logo etc.
 - Implemented GiftAid collection (+ reporting) which can be optionally enabled per charity as well as the ability to customise the giftaid declaration text & percentage rate.
 - Added a new "Donations Received" report alongside lots of new fields within existing reports for the new charity features
@@ -15,14 +15,14 @@ This release was particularly feature-rich, so we've had to group the features b
   - Customers who have purchased tickets to an event can create & manage a fundraising page in JustGiving via the My Account section using new or existing JustGiving credentials
   - The default settings for the generated JustGiving pages can be configured per-event
 
-### Localisation, Dates and Times
+#### Localisation, Dates and Times
 - Added the ability to customise date formats within your shop and admin panel. Dates can be configured as either "Big endian", "Middle endian" or "Little endian".
 - Added the ability to switch between 12-hour and 24-hour time display.
 - Added multi-timezone support; admin users can configure a company default timezone as well as a timezone per event. Timezone information can optionally be displayed throughout the event listings.
 - Cities and regions are now multi-lingual and translations can be populated when managing venues.
 - Languages and countries will now display in the correct language according to the users preference.
 
-### Stadiums & Seating Plans
+#### Stadiums & Seating Plans
 - Improved seating UI in shop / editor with a brand new immersive full-screen seat and area selection experience
 - Seating tags: you can tag seats and set tags to either appear on the ticket OR on the tooltip OR use them as filters.
 - New smaller features: Opacity for shapes and icons. Accessibility, gates, stand, stairs and tags for GA. Row labels will stick to row ends even when seats are hidden. Plan background colour could be changed. UI to rotate / resize elements in editor
