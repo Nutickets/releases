@@ -32,7 +32,7 @@ This release was particularly feature-rich, so we've had to group the features b
 - Better UX after you add a seating plan to an event, with more guidance to finish setup
 - You can get a well detailed all out information of everything on the plan in the new Plan information dialog
 
-### Other Features
+#### Other Features
 - Added a new 'Payment Link' payment option when selling tickets via box office mode. This emails a unique secure URL to the customers email address allowing them to pay for their tickets within an allotted time.
 - Added the ability to create access codes which allow organisers to hold seats or individual tickets from the public and lock them behind an access code:
     - Access codes can be applied either by visiting a unique URL or by entering the code manually. Manual code entry can be enabled/disabled globally.
