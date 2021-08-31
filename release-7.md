@@ -4,14 +4,15 @@
 # Release 7: July 19th - August 25th
 Below you will find the summary notes for the 7th release of the Nuweb core platform.
 
+
 ## 🚀 New Features
+- Reporting: implemented a brand new reporting UI to more easily manage fields, filters and widgets included in custom reports. Providing quicker access to information, and collapsable menus to increase table size. 
 - Added the ability for purchasers to correct a transfer if they accidentally entered the wrong email address or changed their minds - this feature can be toggled on or off.
 - Implemented 3D Secure V1 and V2 for Realex in the Nutickets legacy platform
 - Allow discount codes/access codes to be edited, allowing codes to be changed at any time.
 
 
 ## ✨ Enhancements
-- Reporting: implemented a brand new reporting UI to more easily manage fields, filters and widgets included in custom reports. Providing quicker access to information, and collapsable menus to increase table size. 
 - Allow box office users to bypass any sharing restrictions during checkout
 - Extended the event search in the shop to allow searching events by venue name
 - Added pagination to event blocks to allow for more than 50 events to be shown per block. Pagination links can be toggled on or off per individual block
