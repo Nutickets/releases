@@ -68,8 +68,8 @@ Below you will find the summary notes for the 7th release of the Nuweb core plat
 - Fixed some blocking issues preventing the automatic audit backup script from always completing.
 
 #### API Updates
-- Added a `/sale-items` endpoint, which was essentially a replica of the /event-tickets endpoint but for all item types
-- Added an `/inventory-items` endpoint
+- Added a `/sale-items` endpoint, allowing API users to retrieve complete lists of items within an account.
+- Added an `/inventory-items` endpoint to retrieve a complete paginated list of inventory (global) items
 
 <style>
   header, footer { display: none; }
