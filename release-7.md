@@ -62,6 +62,7 @@ Below you will find the summary notes for the 7th release of the Nuweb core plat
 - Fix: Issue with seating plans not respecting disabled/deleted access codes, and seats still being marked as unavailable.
 - Fix: Seating Plan cache when an access code is applied. The availability image of areas remained the same, as it was not considering that different customers should see different items.
 - Fixed issues with exporting/downloading reports when we are filtering by email addresses
+- (internal) Corrected the automatic Stripe invoice generation
 
 
 ## 💻 Technical
