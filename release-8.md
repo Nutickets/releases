@@ -134,6 +134,34 @@ The major focus of this release has been about enhancing our box office product,
 - Improvement: Improved the performance of the availability updates on seating plans with areas.
 
 
+## 🩹 Patch Notes
+Below is a summary of all software patches made throughout this release period, outside of the regular release cycle.
+
+#### 2nd September
+- Added a new ‘upsell wizard’ feature toggle to admin > general settings which encourages customers to purchase upsells after selecting their tickets
+
+#### 10th September
+- Added new timeslot settings: on sale from/until dates as well as the ability to hide them when out of stock and/or off sale
+- Several improvements to refunds:
+    - If an online refund fails, the message from the gateway is displayed to the user issuing the refund
+    - Bulk refunds are now processed in a background job to remove the chances of a browser timeout occurring and interfering with the refunds
+    - Admin users are now sent an email summarising the refunds that were processed during a bulk refund as well as detailing any problems that might have prevented a refund from being issued.
+- Rebooking now allows both customers and staff to rebook to a different item of equal value where previously it only supported same item different time-slot/event.
+- Fixed an issue preventing you from setting a timeslot capacity to zero
+- Added one-click pause/resume sales buttons to all timeslots and sale items in admin
+- Added the ability to hide timeslot start/end dates for situations where only the earliest or latest arrival times are relevant
+- Introduced the concept of ‘global’ vs ‘assigned’ data capture columns in the reporting section which allow you to group repeat questions into a single column
+
+#### 22nd September
+- Corrected the logic ‘external fees’ column in the sales report to accurately reflect the amount-per-item contributed towards the fee charged by the gateway
+- Added event-based headers to the orders & transactions reports including event IDs, names, dates and custom internal questions (event codes)
+- Added new total received headers to both sales & transaction reports which is based on actual transaction fees (only applicable to PayPal transactions at present)
+- Fixed shop menu display issues on smaller screens when lots of menu links are active
+
+#### 23rd September
+- Fix event descriptions not being saved when auditing and visibility groups were both enabled
+- Added upsells (products, donations, guest lists) to reserved seating events where they were missing from the UI
+- Improved the flow for addons to ensure customers cannot miss them during checkout
 
 
 <style>
