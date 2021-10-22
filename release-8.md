@@ -6,9 +6,8 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 
 
 ## 🚀 New Features
-- Add filters to financial reports allowing you to split the currency from the amount for easier manipulations of the numbers when exporting into spreadsheets
-- Add the option to display refund transactions as negative values in the transaction reports
-- Added the ability to customise the order in which events display in custom event blocks
+
+#### Box Office
 - Add the ability for admin/box office users to generate a new barcode for any purchased item
 - Add a number of useful download options in admin & box office including the ability to share the download links via a QR code.
     - The QR code can link to a direct download or require a full account creation and data capture to be filled in by the customer prior to accessing the tickets
@@ -26,46 +25,56 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
     - Reserve to pay onsite: keeps the reservation active until marked as either complete or released within admin
 * Allow editing of the basket total whilst processing a box office sale
 * Add: Button on the event seating plan page to begin a box office order with the selected seats (if available).
-* Add: Price Band, Stand, and Area Utilisation reports - showing number of sales across price bands, along with financials.  These can be viewed on a per event basis, or aggregated across all assigned events/schedules.
-* Add: Space allocation reports - showing all spaces for the selected events/schedule, along with the allocations that currently exist.  If no allocation exists, the space is still displayed. Also respects season ticket purchases.
-* Season Tickets (Phase 2)
-    * Add: Respect season ticket sales throughout entire event schedule - this allows for season tickets to be used as upsells on any event in a single schedule.
-    * Add: Disallow season ticket purchase where event-day items are purchased for those seats (or capacity is reached), in the schedule.
-    * Add: Attendance Reports now allow you to see the season ticket that has access to an event, even if it wasn't purchased in that event.
-    * Add: New toggle on attendance reports to ungroup/group season ticket sales, so that you can quickly see which event a ticket was purchased in.
-    * Add: Support for season tickets on general admission areas - we'll always respect the general admission capacity across the entire schedule.
-    * Add: New setting to allow season ticket sales to count towards ticket capacities.
-    * Add: Dynamic capacities for event/tickets, to take into account the sale of season tickets (where appropriate).
 * Add: Admin users can now reallocate (or swap) bookings between spaces for the same event
-- Added Transfer reports
-* Added an Admin Global Search enabling organisers and box office staff to search the database of customers, orders, reservations and events from anywhere in the system
-
-
-## ✨ Enhancements
 - Added a new dynamic box office style dashboard to the admin, which displays certain elements depending on what level of permission you have
-- Split out name into first name and surname across all customer-centred reports. The original (full) ‘name’ field is still available as a default header
-- Include add-ons and the ability to filter them in the attendance reports
-- Add an automatic stock adjustment function in place allowing organisers to refund without stocking
-- Incorporated box office mode into the admin section to create a streamlined box office sales experience for staff members
-- Added the ability to quickly jump out of box office mode when trying to visit the ticket shop from admin
-- Added a number of reporting quick-links throughout the dashboard allowing you to view filtered views as a report, such as orders, reservations, customers, transactions and more
-- Added the ability to filter audits by subject ID
 - Allow box office users to bypass all data capture validation when processing sales
-- Added many more relative date filter options to all reports
-* Discount Codes Upgrades & New Functionality
-    * Add: "Visible in Box Office" toggle within admin when creating a discount code
-    * Add: "Visible in Shop" toggle within admin when creating a discount code (this remains disabled for now)
-    * Add: Discount code selector on the basket/checkout pages, showing available discounts (based on visibilities). These codes are pre-filtered to only show codes that are applicable to the current basket
-    * Add: Ability to assign a specific role ID to a discount code, so you can only use that discount code if you have that role, in box office mode.
-    * Add: New ability to control which members of the box office team can create arbitrary discount amounts on the fly.
-    * Add: New 'overuse' toggle when creating discount codes, to allow overuse when in box office mode.
 - Updated box office mode to display events, timeslots and tickets that would otherwise be hidden, unavailable or sold out in the shop
-* Allow changing the price band of a seat from the manage seating plan screen
-* Add: Button on the item modal for seated events, to take you directly to the seating plan management page in admin
-* Add: UI to edit the total stock for individual spaces, for a single event. (seats are capped at 1 whereas general admission areas can be set to any number)
 * Add: New button on the item selector modal, to allow box office users to force a refresh of availability for seating plans.
 * Add: Customer selector on the navbar before an order exists, allowing pre-selection of a customer to checkout as
 * Add: New button on the 'view customer' page to start box office mode, as the selected customer.
+
+#### Season Tickets
+* Add: Respect season ticket sales throughout entire event schedule - this allows for season tickets to be used as upsells on any event in a single schedule.
+* Add: Disallow season ticket purchase where event-day items are purchased for those seats (or capacity is reached), in the schedule.
+* Add: Attendance Reports now allow you to see the season ticket that has access to an event, even if it wasn't purchased in that event.
+* Add: New toggle on attendance reports to ungroup/group season ticket sales, so that you can quickly see which event a ticket was purchased in.
+* Add: Support for season tickets on general admission areas - we'll always respect the general admission capacity across the entire schedule.
+* Add: New setting to allow season ticket sales to count towards ticket capacities.
+* Add: Dynamic capacities for event/tickets, to take into account the sale of season tickets (where appropriate).
+
+#### eTicket Customisations
+
+
+#### Reporting
+- Add filters to financial reports allowing you to split the currency from the amount for easier manipulations of the numbers when exporting into spreadsheets
+- Add the option to display refund transactions as negative values in the transaction reports
+* Add: Price Band, Stand, and Area Utilisation reports - showing number of sales across price bands, along with financials.  These can be viewed on a per event basis, or aggregated across all assigned events/schedules.
+* Add: Space allocation reports - showing all spaces for the selected events/schedule, along with the allocations that currently exist.  If no allocation exists, the space is still displayed. Also respects season ticket purchases.
+- Added Transfer reports
+- Split out name into first name and surname across all customer-centred reports. The original (full) ‘name’ field is still available as a default header
+- Include add-ons and the ability to filter them in the attendance reports
+- Added a number of reporting quick-links throughout the dashboard allowing you to view filtered views as a report, such as orders, reservations, customers, transactions and more
+- Added many more relative date filter options to all reports
+
+
+#### Discount Upgrades
+* Add: "Visible in Box Office" toggle within admin when creating a discount code
+* Add: "Visible in Shop" toggle within admin when creating a discount code (this remains disabled for now)
+* Add: Discount code selector on the basket/checkout pages, showing available discounts (based on visibilities). These codes are pre-filtered to only show codes that are applicable to the current basket
+* Add: Ability to assign a specific role ID to a discount code, so you can only use that discount code if you have that role, in box office mode.
+* Add: New ability to control which members of the box office team can create arbitrary discount amounts on the fly.
+* Add: New 'overuse' toggle when creating discount codes, to allow overuse when in box office mode.
+
+
+#### Quality of Life Features
+- Added the ability to customise the order in which events display in custom event blocks
+* Added an Admin Global Search enabling organisers and box office staff to search the database of customers, orders, reservations and events from anywhere in the system
+- Added the ability to quickly jump out of box office mode when trying to visit the ticket shop from admin
+- Add an automatic stock adjustment function in place allowing organisers to refund without stocking
+- Added the ability to filter audits by subject ID
+* Allow changing the price band of a seat from the manage seating plan screen
+* Add: Button on the item modal for seated events, to take you directly to the seating plan management page in admin
+* Add: UI to edit the total stock for individual spaces, for a single event. (seats are capped at 1 whereas general admission areas can be set to any number)
 - Added 'View in seating plan button' when viewing an order
 - Added links to Orders/Reservations/Attendance reports from the event dashboard
 - Added timeslot and sale item filters to the attendance section
@@ -74,6 +83,7 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 
 ## 🎨 User Interface (UI/UX)
 * Box Office - A wide range of features and UI improvements have been made to offer Admin Users the ability to sell Items at a physical Box Office
+- Incorporated box office mode into the admin section to create a streamlined box office sales experience for staff members
 * Added French and Hungarian support
 * Multiple Payment Gateways now show more uniformly in mobile size screens
 * Date picker inputs have been revamped in reporting
