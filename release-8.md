@@ -6,6 +6,7 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 
 
 ## 🚀 New Features
+The major focus of this release has been about enhancing our box office product, diving deeper in season ticket functionality and delivering an initial framework for designing bespoke eTickets / printable media.
 
 #### Box Office
 - Add the ability for admin/box office users to generate a new barcode for any purchased item
@@ -68,6 +69,7 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 * Add: New 'overuse' toggle when creating discount codes, to allow overuse when in box office mode.
 
 
+
 #### Quality of Life Features
 - Added the ability to customise the order in which events display in custom event blocks
 * Added an Admin Global Search enabling organisers and box office staff to search the database of customers, orders, reservations and events from anywhere in the system
@@ -81,6 +83,7 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 - Added links to Orders/Reservations/Attendance reports from the event dashboard
 - Added timeslot and sale item filters to the attendance section
 - Added links to Scanning/Zone Summary/Customer Journey reports from the Access Control Dashboard (formerly, the "manage zones" section)
+
 
 
 ## 🎨 User Interface (UI/UX)
@@ -106,6 +109,7 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 * Fixed an issue where Event Passes were not showing when expected
 
 
+
 ## 🧹 Housekeeping
 - Added clearer messaging and better handling of errors when rebookings cannot be processed
 - Correct links on event listings for events that are not part of a schedule but appear within an event block which groups events into schedules
@@ -115,6 +119,7 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 - Prevent pending transactions incorrectly appearing within an order when double submits were made
 - Hide payment gateway selector in box office mode when not opting to pay via online card
 - Fixed an issue where events were not showing on certain listings if the first event of the schedule was missing a required tag
+
 
 
 ## 💻 Technical
@@ -127,6 +132,8 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 * Fix: Issue where guest checkout was shown as 'not available' where customers were already guests within a specific reseller, even if not a guest at that specific company.
 * Add: Event start/end dates to the attendance reports.
 * Improvement: Improved the performance of the availability updates on seating plans with areas.
+
+
 
 
 <style>
