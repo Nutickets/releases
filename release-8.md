@@ -135,7 +135,7 @@ The major focus of this release has been about enhancing our box office product,
 
 
 ## 🩹 Patch Notes
-Below is a summary of all software patches made throughout this release period, outside of the regular release cycle.
+Below is a summary of all software patches made throughout this release period, outside of the regular scheduled release cycle. Patches follow the same structure as a regular release and can involve bug fixes, UI improvements or even brand new features.
 
 #### 2nd September
 - Added a new ‘upsell wizard’ feature toggle to admin > general settings which encourages customers to purchase upsells after selecting their tickets
