@@ -42,8 +42,10 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 * Add: New setting to allow season ticket sales to count towards ticket capacities.
 * Add: Dynamic capacities for event/tickets, to take into account the sale of season tickets (where appropriate).
 
-#### eTicket Customisations
-
+#### eTicket & Apple Pass Builder
+* Add: Event Media Management Page - allowing viewing, creation, and editing, of event media (eTickets, receipts, printables)
+* Add: Apple Wallet Pass settings, to allow you to specify which apple wallet pass design is used for tickets/season tickets/products/guest lists.
+* Add: Suitable default templates for all scenarios, in the event companies haven't configured their printables or passes.
 
 #### Reporting
 - Add filters to financial reports allowing you to split the currency from the amount for easier manipulations of the numbers when exporting into spreadsheets
