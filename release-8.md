@@ -9,6 +9,10 @@ Below you will find the summary notes for the 8th release of the Nuweb core plat
 The major focus of this release has been about enhancing our box office product, diving deeper in season ticket functionality and delivering an initial framework for designing bespoke eTickets / printable media.
 
 #### Box Office
+- Added several new box office payment methods: “Invoice”, “Gift Card” and “Reserve to pay onsite”
+    - Invoice: customisable payment instructions will be emails to the customer, once the money has been received you can complete the order from the new dashboard or from the reservation page
+    - Gift card: allows you to run reports on orders paid with physical gift cards
+    - Reserve to pay onsite: keeps the reservation active until marked as either complete or released within admin
 - Add the ability for admin/box office users to generate a new barcode for any purchased item
 - Add a number of useful download options in admin & box office including the ability to share the download links via a QR code.
     - The QR code can link to a direct download or require a full account creation and data capture to be filled in by the customer prior to accessing the tickets
@@ -20,10 +24,6 @@ The major focus of this release has been about enhancing our box office product,
 - Added the ability to transfer individual tickets or multiple tickets from the same order from admin & the box office
 - Added quick sell buttons for each payment method to the event page when selling tickets in the box office
 - Added the ability to send payment link reminder notifications
-- Added several new box office payment methods: “Invoice”, “Gift Card” and “Reserve to pay onsite”
-    - Invoice: customisable payment instructions will be emails to the customer, once the money has been received you can complete the order from the new dashboard or from the reservation page
-    - Gift card: allows you to run reports on orders paid with physical gift cards
-    - Reserve to pay onsite: keeps the reservation active until marked as either complete or released within admin
 - Allow editing of the basket total whilst processing a box office sale
 - Add: Button on the event seating plan page to begin a box office order with the selected seats (if available).
 - Add: Admin users can now reallocate (or swap) bookings between spaces for the same event
