@@ -6,7 +6,7 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
 
 
 ## 🚀 New Features
-- The admin event dashboard has been redesigned and features brand new event level statistics on sales, attendees and orders:
+- The admin event dashboard has been redesigned and features brand new event level statistics on sales, attendees and orders as well as:
     - New event status block containing status, payment link option and the most important actions.
     - Filtering of statistics based on currency and time period.
     - New statistics block containing high level statistics for all sale items, timeslots and pricebands.
@@ -18,13 +18,8 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
 
 
 ## ✨ Enhancements
-* Box Office Users are no longer treated 
-    * Removed: User email address in box office mode, when operating as admin user.
-    * Removed: "Customer" details on orders, where box office user was admin user.
-    * Removed: Option to send confirmation email, where operating box office as admin user (i.e. not allocated to a customer).
-    * Removed: Box Office unallocated orders (i.e. no customer) are not included in the mass email lists for resending tickets, or emailing attendees.
-    * Removed: Box Office users from the customers list.
-- Reporting Improvements:
+* Box office users are no longer treated as regular customers during box office checkouts -- they will no longer receive confirmation emails or appear in email/customer lists during any attempts to communicate with event attendees such as via the 'compose new email' or 'resend order emails' features.
+- Reporting has been improved both technically to support larger reports as well as from a UX / QoL perspective:
     - Added event fields and a customer filter to the scanning reports
     - Implemented temporary report generation and results caching for larger reports
     - Improved the exporting of reports to handle larger datasets via batch processing
@@ -34,11 +29,9 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
         - See the report export status (whether the export has finished and is available to download or is still
           exporting)
         - See a history of all previous exports, meaning you can easily re-download and previous exports
-    - Added a report export email to notify you that your export is ready for download, with a link that takes you
-      straight to the report export page
-    - Added an email to notify you if the report failed to export.
-    - Updated the scheduled email to include a link to download the report, rather than attaching it to the email. This
-      prevents future issues of emails not reaching the end user if the file is too large.
+    - Added a report export email to notify users when their export is ready for download, with a link taking them straight to the report export page
+    - Added an email to notify users if the report failed to export.
+    - Updated the scheduled email to include a link to download the report, rather than attaching it to the email. This prevents future issues of emails not reaching the end user if the file is too large.
 - Redesigned the API docs with a completely new UI and improved documentation with clearer explanations and sample code
 * Add: Sale item "additional info" in event media.
 * Add: Item "description" in event media
@@ -78,8 +71,6 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
 - Cleaned up the UI for the order summary in shop.
 - Improved the UI of the new payment settings cards in admin.
 - Fixed a bug where three-column layout event blocks did not render properly on mobile devices - Also improved the slider so it can be used by trackpad users as well as touchscreen devices.
-- Added a Javascript linter to improve code formatting and consistency, reducing chance of future merge conflicts causing breaking changes.
-
 
 ## 🧹 Housekeeping
 - Fix an issue in the scanning reports where on some occasions it was incorrectly aggregating the total scans (in/out)
@@ -110,7 +101,6 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
 - Fix bug where access codes would sometimes not reveal sale items
 - Fix bug where box office users no longer randomly load a basket
 - Added prompt to give admin users the choice to skip the waiting room if the shop is currently too busy
-- New test runner pipeline
 - Add default “valid for” setting for how long payment links should live for before expiring
 - Fix bug where resending emails for an event would sometimes also send an email to an order item of another event
 - Reservations now show seating information
@@ -136,10 +126,6 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
     * We now store the company/context details within the queued actions, to ensure that the action remains context aware and ensure better segregation between companies.
     * Provides opportunity to store queued tasks for companies, and surface this information in the UI as required (seating plans, event timeslot creation, etc).
     * Using the above, we now have a 'queued job' page in admin UI which allows all pending jobs to be displayed, and their progress tracked.
-* Refactor: Changes to the way in which we track box office mode through the store.
-* Add: CalculateEventCapacity action, to accurately calculate the potential capacity of an event, considering all capacity restrictions in place.
-    * This is built in a generic way such that this data could be surfaced elsewhere at some point in the future.
-
 
 ### API
 Changes to the API are now documented exclusively in the changelog on the API documentation homepage.
