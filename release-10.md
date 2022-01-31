@@ -15,38 +15,21 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
     - Links to relevant reports for all statistics.
     - New actions block.
     - Better use of colour on event dashboard with certain item groups being assigned colours that aren’t the primary theme colour.
-* Box Office User Obfuscation:
+
+
+## ✨ Enhancements
+* Box Office Users are no longer treated 
     * Removed: User email address in box office mode, when operating as admin user.
     * Removed: "Customer" details on orders, where box office user was admin user.
     * Removed: Option to send confirmation email, where operating box office as admin user (i.e. not allocated to a customer).
     * Removed: Box Office unallocated orders (i.e. no customer) are not included in the mass email lists for resending tickets, or emailing attendees.
     * Removed: Box Office users from the customers list.
-
-
-
-## ✨ Enhancements
 - Reporting Improvements:
     - Added event fields and a customer filter to the scanning reports
-- Redesigned the API docs with a completely new UI and improved documentation to reduce ambiguity
-* Add: Sale item "additional info" in event media.
-* Add: Item "description" in event media
-* Add: Ability to delete charity/sale item parents, even when they contain children
-    * If any of the children are part of reservations/orders, the whole group is taken off sale.
-    * If any of the children (or parents) are attached to another event, the underlying item isn't deleted but the sale item itself is.
-- Improve breadcrumbs in our wizards across Admin and Hub to improve the flow.
-- Added date search to out multi-select sale item search component
-- Integrated measures to prevent bots from abusing the company registration form.
-- User permissions/roles UI tidied up, as well as paginating the records that are returned when selecting permissions
-  for specific entities rather than loading the entire list of entities which was crashing the browser
-- Performance improvements made to reports:
-    - MySql query optimisations across all reports
-    - Implement 5 minute caching per page in each of the reports
-    - Implement temporary reports for our larger reports that take longer to generate
-    - Improved the exporting of reports. We now push a batch of jobs to the queue, and export the report bit-by-bit
-      (chunks of 1000).
+    - Implemented temporary report generation and results caching for larger reports
+    - Improved the exporting of reports to handle larger datasets via batch processing
     - We also use this new exporting functionality to generate our scheduled reports.
-    - New multi-search-selector report input field
-- Other reporting features:
+    - Improved the inputs for multi-select and single-select filters
     - Added a Report Exports page in both Admin and Hub which allows you to:
         - See the report export status (whether the export has finished and is available to download or is still
           exporting)
@@ -56,8 +39,18 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
     - Added an email to notify you if the report failed to export.
     - Updated the scheduled email to include a link to download the report, rather than attaching it to the email. This
       prevents future issues of emails not reaching the end user if the file is too large.
-- Changes to GTM/Google analytics - we now track the events triggered when first landing on the homepage once the user
-  allows all cookies
+- Redesigned the API docs with a completely new UI and improved documentation with clearer explanations and sample code
+* Add: Sale item "additional info" in event media.
+* Add: Item "description" in event media
+* Add: Ability to delete charity/sale item parents, even when they contain children
+    * If any of the children are part of reservations/orders, the whole group is taken off sale.
+    * If any of the children (or parents) are attached to another event, the underlying item isn't deleted but the sale item itself is.
+- Improve breadcrumbs in our wizards across Admin and Hub to improve the flow.
+- Added date search to the multi-select sale item search component
+- Integrated measures to prevent bots from abusing the company registration form.
+- User permissions/roles UI tidied up, as well as paginating the records that are returned when selecting permissions
+  for specific entities rather than loading the entire list of entities which was crashing the browser
+- Changes to GTM/Google analytics: we now track the events triggered when first landing on the site, once the user opts-in to analytical cookies
 
 ## 🎨 User Interface (UI/UX)
 - Improved the phrasing on the transfer interface when correcting a transfer
@@ -130,17 +123,8 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
 - Fixing an issue where the company index page could not be viewed in Hub in Firefox.
 - Fixing an issue with tickets disappearing in the UI if a pending transfer request was cancelled
 - Fixing issues with the customer global search in box office that were 404'ing
-- Reports:
-    - Fixing issues with headers being removed when a report was being saved as a custom report
-    - Fixing an issue preventing headers from being removed from custom reports
-- Incorrect reset email URL in the password reset email for specific hub users who have admin users registered under the
-  same email address
-- Fixing an issue where the company index page could not be viewed in Hub in Firefox.
-- Fixing an issue with tickets disappearing in the UI if a pending transfer request was cancelled
-- Fixing issues with the customer global search in box office that were 404'ing
-- Reports:
-    - Fixing issues with headers being removed when a report was being saved as a custom report
-    - Fixing an issue preventing headers from being removed from custom reports
+- Fixing issues with headers being removed when a report was being saved as a custom report
+- Fixing an issue preventing headers from being removed from custom reports
 
 
 ## 💻 Technical
@@ -158,6 +142,7 @@ Below you will find the summary notes for the 10th release of the Nuweb core pla
 
 
 ### API
+Changes to the API are now documented exclusively in the changelog on the API documentation homepage.
 
 
 ## 🩹 Patch Notes
