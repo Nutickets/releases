@@ -1,3 +1,6 @@
+# Project Deprecated
+We moved our release notes elsewhere.
+
 # Release Notes
 This repository houses the Nuweb Group release notes.
 
